@@ -8,3 +8,13 @@ sudo yum install git
 sudo service jenkins start
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
+set JAVA_HOME in global config in jenkins
+
+create public token in github
+add to credentials in jenkins
+add github server in manage jenkins/ configure system
+add to webhook with /github-webhook/ at the end
+
+
+
+
